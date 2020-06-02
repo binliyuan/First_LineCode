@@ -152,6 +152,7 @@ public class YView extends View {
         path2.lineTo(100,300); //设置贝塞尔曲线的控制点坐标和终点坐标
         canvas.drawPath(path2, mPaint);//画出贝塞尔曲线
 
+
         //设置文字颜色
         mPaint.setColor(mTextColor);
         Log.e("view",mText);
